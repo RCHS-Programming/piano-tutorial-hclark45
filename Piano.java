@@ -20,7 +20,7 @@ public class Piano extends World
     {
         for (int i=0; i<12; i=i+1)
         {
-            addObject (new Key ("g", "3a.wav"), 300,140);
+            addObject (new Key ("g", "3a.wav"), 54 + 63 * i,140);
         }
     }
 }
