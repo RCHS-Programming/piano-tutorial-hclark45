@@ -5,6 +5,8 @@ public class Key extends Actor
     private boolean isDown;
     private String key;
     private String sound;
+    private String upImage;
+    private String downImage;
     /**
      * Create a new key.
      */
@@ -12,6 +14,9 @@ public class Key extends Actor
     {
         key = keyName;
         sound = soundFile;
+        upImage="white-key.png";
+        downImage="white-key-down.png";
+        
     }
     /**
      * Do the action for this key.
